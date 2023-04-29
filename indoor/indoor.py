@@ -2,4 +2,4 @@
 var2=''
 for char in var1:'''
 
-ord('A')
+print(ord('A'))
