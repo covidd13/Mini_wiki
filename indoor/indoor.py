@@ -4,7 +4,7 @@ for char in var1:
     if ord(char)>=65 and ord(char)<=90:
         char=ord(char)+32
     else:
-        pass
+        var2=char
     var3=chr(char)
     var2+=var3
 print(var2)
