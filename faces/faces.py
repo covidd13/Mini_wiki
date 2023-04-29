@@ -1,4 +1,4 @@
-string=str(input("Enter your string with emoticon"))
+'''string=str(input("Enter your string with emoticon"))
 for char in string:
     if char==":)":
         string+="😂"
@@ -6,4 +6,5 @@ for char in string:
         string+="😢"
     else:
         string+=char
-print(string)
+print(string)'''
+print(ord(":)"))
