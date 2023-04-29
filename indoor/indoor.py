@@ -5,7 +5,7 @@ for char in var1:
         char=ord(char)+32
     else:
         pass
-    var3=char
+    var3=chr(char)
     var2+=var3
 print(var2)
 
