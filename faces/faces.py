@@ -7,4 +7,4 @@ for char in string:
     else:
         string+=char
 print(string)'''
-print(ord(":)"))
+print(ord(")"))
