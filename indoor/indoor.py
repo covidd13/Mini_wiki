@@ -5,8 +5,8 @@ for char in var1:
         ord(char)==ord(char)+32
     else:
         pass
-var3=char
-var2+=var3
+    var3=char
+    var2+=var3
 print(var2)
 
 
