@@ -6,7 +6,7 @@ def emoticon_converter(message):
     }
     output=" "
     for word in words:
-        outcome+=emojis.get(word,word) + " "
+        output+=emojis.get(word,word) + " "
     return output
 message=input(">")
 print(emoticon_converter(message))
