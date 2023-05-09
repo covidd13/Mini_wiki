@@ -6,7 +6,7 @@ def main():
 
 
 def dollars_to_float(d):
-    string1,string2=dollars.split(".")
+    string1,string2= dollars.split(".")
     return (string1[1:]+'.'+string2[0])
 
 
