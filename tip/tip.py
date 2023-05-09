@@ -10,7 +10,8 @@ def dollars_to_float(d):
     return (string1[1:]+'.'+string2[0])
 
 
-#def percent_to_float(p):
+def percent_to_float(p):
+    
 
 
 
