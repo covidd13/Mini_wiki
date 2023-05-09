@@ -1,2 +1,3 @@
-string=str(input(">"))
-print(string[3:8])
+string="I'm a disco.dancer"
+string1,string2=string.split(".")
+print(string1.string2)
