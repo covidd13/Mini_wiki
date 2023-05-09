@@ -11,7 +11,8 @@ def dollars_to_float(d):
 
 
 def percent_to_float(p):
-    
+    rem=p.remove[-1]
+    return rem/100
 
 
 
