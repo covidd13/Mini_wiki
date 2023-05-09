@@ -18,4 +18,4 @@ def percent_to_float(p):
 
 main()'''
 string=str(input(">"))
-print(int(string))
+string.pop[-1]
