@@ -12,6 +12,7 @@ def dollars_to_float(d):
 
 def percent_to_float(p):
     digit1,digit2 = p.split("%")
+    digit1=int(digit1)
     return digit1/100
 
 
