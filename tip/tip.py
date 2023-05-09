@@ -7,7 +7,7 @@ def main():
 
 def dollars_to_float(d):
     string1,string2 = d.split(".")
-    return (string1[1:]+'.'+string2[0])
+    return float(string1[1:]+'.'+string2[0])
 
 
 def percent_to_float(p):
