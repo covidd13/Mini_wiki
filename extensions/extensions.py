@@ -1,15 +1,15 @@
 file_name=str(input(">"))
-if ".gif" in file_name.casefold():
+if ".gif" in file_name.casefold().strip():
     print('image/gif')
-elif ".jpg" or ".jpeg" in file_name.casefold():
+elif ".jpg" or ".jpeg" in file_name.casefold().strip():
     print('image/jpeg')
-elif ".png" in file_name.casefold():
+elif ".png" in file_name.casefold().strip():
     print('image/png')
-elif ".pdf" in file_name.casefold():
+elif ".pdf" in file_name.casefold().strip():
     print('application/pdf')
-elif ".txt" in file_name.casefold():
+elif ".txt" in file_name.casefold().strip():
     print('text/plain')
-elif ".zip" in file_name.casefold():
+elif ".zip" in file_name.casefold().strip():
     print('application/zip')
 else:
     print('application/octet-stream')
