@@ -1,4 +1,4 @@
-file_name.casefold()=str(input(">"))
+file_name=str(input(">"))
 if ".gif" in file_name.casefold():
     print('image/gif')
 elif ".jpg" or ".jpeg" in file_name.casefold():
