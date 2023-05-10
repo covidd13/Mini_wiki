@@ -11,3 +11,5 @@ elif ".txt" in file_name:
     print('text')
 elif ".zip" in file_name:
     print('ZIP')
+else:
+    print('application/octet-stream')
