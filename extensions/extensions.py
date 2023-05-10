@@ -1,2 +1,3 @@
 file_name=str(input(">"))
-if file_name==
+if ".gif" in file_name:
+    print()".jpg"".jpeg"".png"".pdf"".txt"".zip"
