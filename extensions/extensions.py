@@ -1,7 +1,9 @@
 file_name=str(input(">"))
 if ".gif" in file_name.casefold().strip():
     print('image/gif')
-elif ".jpg" or ".jpeg" in file_name.casefold().strip():
+elif ".jpg" in file_name.casefold().strip():
+    print('image/jpeg')
+elif ".jpeg" in file_name.casefold().strip():
     print('image/jpeg')
 elif ".png" in file_name.casefold().strip():
     print('image/png')
