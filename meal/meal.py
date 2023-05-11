@@ -16,3 +16,5 @@ elif l_start<user_time<l_end:
     print("lunch time")
 elif d_start<user_time<d_end:
     print("dinner time")
+else:
+    pass
