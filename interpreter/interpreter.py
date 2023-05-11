@@ -1,4 +1,4 @@
-x,y,z=int(input()),input(),int(input())
+(x,z)=int(input()),input()
 if y=="+":
     print(x+z)
 if y=="-":
