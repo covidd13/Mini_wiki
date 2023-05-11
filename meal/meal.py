@@ -8,4 +8,11 @@ d_end=datetime.time(19,0)
 
 user=input("What time is it?")
 
+user_time=datetime.datetime.strptime(user,"%H:%M").time()
 
+if b_start<user_time<b_end:
+    print("breakfast time")
+elif l_start<user_time<l_end:
+    print("lunch time")
+elif d_start<user_time<d_end:
+    print("dinner time")
