@@ -10,9 +10,6 @@ user=input("What time is it?")
 
 user_time=datetime.datetime.strptime(user,"%H:%M").time()
 
-def time_to_float(user_time):
-    hours,minutes=map(int,time_to_float.split(":"))
-return hours+'.'+(minutes/5)
 if b_start<time_to_float<b_end:
     print("breakfast time")
 elif l_start<time_to_float<l_end:
@@ -22,3 +19,6 @@ elif d_start<time_to_float<d_end:
 else:
     pass
 
+def time_to_float(user_time):
+    hours,minutes=map(int,time_to_float.split(":"))
+return hours+'.'+(minutes/5)
