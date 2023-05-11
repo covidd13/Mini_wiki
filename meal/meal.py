@@ -18,3 +18,7 @@ elif d_start<user_time<d_end:
     print("dinner time")
 else:
     pass
+
+def time_to_float(user_time):
+    hours,minutes=map(int,user_time.split(":"))
+return hours+'.'+(minutes/5)
