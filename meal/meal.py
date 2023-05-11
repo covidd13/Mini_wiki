@@ -1,15 +1,11 @@
-def main(time):
-    if time in range(7,8):
-        print("Breakfast time")
-    elif time in range(12,13):
-        print("Lunch time")
-    elif time in range(18,19):
-        print("Dinner time")
+import datetime
+b_start=datetime.time(7,0)
+b_end=datetime.time(8,0)
+l_start=datetime.time(12,0)
+l_end=datetime.time(13,0)
+d_start=datetime.time(18,0)
+d_end=datetime.time(19,0)
+
+user=input("What time is it?")
 
 
-def convert(time):
-    if time
-
-
-if __name__ == "__main__":
-    main()
