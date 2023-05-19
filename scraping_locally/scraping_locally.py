@@ -8,7 +8,7 @@ def main():
 
     soup=BeautifulSoup(s,'html.parser')
 
-    print(soup)
+    print(soup.prettify())
 
 if __name__ == "__main__":
     main()
