@@ -7,9 +7,11 @@ def main():
     s=f.read()
 
     soup=BeautifulSoup(s,'html.parser')
-    print(soup.prettify())
+
     list_=soup.find_all('li')
-    print(list_)
+
+    details= [d.string for d in list_]
+    print(details)
 
 
 if __name__ == "__main__":
