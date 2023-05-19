@@ -3,7 +3,7 @@ from requests import get
 
 def main():
     #lets first open file in read only mode
-    f=open('example.py','r')
+    f=open('/workspaces/109335985/scrapy/example.html','r')
     s=f.read()
 
     soup=BeautifulSoup(s,'html.parser')
