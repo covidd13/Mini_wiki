@@ -12,6 +12,7 @@ def main():
 
     details= [d.string for d in list_]
     print(details)
+    
 
 
 if __name__ == "__main__":
